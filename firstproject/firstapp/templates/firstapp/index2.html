@@ -1,0 +1,21 @@
+{% load static %}
+{% load static tailwind_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>work experience</title>
+    {% tailwind_css %}
+</head>
+<body>
+    <h1>Hey i am trying to be a experienced person in my journey</h1>
+    <div class='grid grid-cols-3 gap-4 m-4'>
+        {% for m in menu %}
+            <img src="{{m.image.url}}" alt="">
+            <h3>{{m.name}}</h3>  
+        {% endfor %}
+    </div>
+    
+</body>
+</html>

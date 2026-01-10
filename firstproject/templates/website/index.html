@@ -1,0 +1,17 @@
+{% load static tailwind_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Django Project{% endblock title %}</title>
+    <link rel="stylesheet" href={% static 'style.css' %}>
+    {% tailwind_css %}
+</head>
+<body>
+    <h1 class='bg-green-400 text-3xl'>Hello World</h1>
+    <button class="btn py-10 px-40" type="button">click me</button>
+    <script src={% static 'index.js' %}></script>
+</body>
+</html>
