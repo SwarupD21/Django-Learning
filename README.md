@@ -2,16 +2,19 @@
 
 This repository documents my Django learning journey, where I practice and implement core Django concepts step by step. The project focuses on understanding Django’s architecture, database handling, and frontend integration.
 
-## 📌 Project Structure
+## 📁 Project Structure
 
 Django Learning/
+│
 ├── firstproject/        # Main Django project (settings, urls, wsgi)
 ├── firstapp/            # Django app (views, models, forms)
 ├── templates/           # HTML templates
-├── static/              # Static files (CSS, JS)
-├── manage.py            # Django project manager
-├── .gitignore           # Ignored files & folders
+├── static/              # Static files (CSS, JavaScript)
+│
+├── manage.py            # Django project management script
+├── .gitignore           # Files and folders ignored by Git
 └── README.md            # Project documentation
+
 
 ## ✨ Features
 
